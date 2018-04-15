@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'http://localhost:8080/v1/task/';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  var apiRoot = 'https://murmuring-lake-46611.herokuapp.com/v1/task/';
+  var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
